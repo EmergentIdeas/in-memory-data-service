@@ -1,0 +1,30 @@
+{
+	"name": "@dankolz/in-memory-data-service",
+	"version": "1.0.0",
+	"main": "lib/in-memory-data-service.mjs",
+	"directories": {
+		"test": "test"
+	},
+	"scripts": {
+		"test": "npx mocha"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"devDependencies": {
+		"chai": "^5.1.2",
+		"mocha": "^10.7.3"
+	},
+	"dependencies": {
+		"@dankolz/abstract-data-service": "^1.0.2",
+		"@webhandle/id-generator": "^1.0.3",
+		"sift": "^17.1.3"
+	},
+	"type": "module",
+	"files": [
+		"lib"
+		, "package.json"
+		, "README.md"
+	]
+}
